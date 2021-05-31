@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49456CB3-0B80-9AA9-C898-2D57342D32A9" containerWithKeyObject="B7C43EE9-8BC8-1DA1-0CAF-CC6F71F3C5F7" localFKIndex="8F32AA59-FA48-FCFA-CCFC-DA9FC6DA8E1A" name="T_USER_T_DIETAS_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>D13CAB17-C8FE-2C27-83C8-067553739397</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<referredTableLongName>T_DIETAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2FFACEA1-A0FF-2BC2-447A-53044FF6991F</referredTableID>
+<keyObject>CC0BC22C-8C5E-4DAA-ABE8-5AE4953479AC</keyObject>
+<referredKeyID>CC0BC22C-8C5E-4DAA-ABE8-5AE4953479AC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_diet</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

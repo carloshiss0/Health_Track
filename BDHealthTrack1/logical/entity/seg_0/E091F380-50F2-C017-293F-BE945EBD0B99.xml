@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E091F380-50F2-C017-293F-BE945EBD0B99" name="T_HIST_PAG">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 13:04:01 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_hist" id="35645764-40B6-A1DA-5481-9397B6E4EF9C">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:00:48 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_pago" id="03BABDFE-AEB5-A5ED-EED0-437545C1265C">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:01:01 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_pag" id="A29E6E5D-ECCE-6B7C-C3F4-8A5D07FC49E7">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:03:04 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desconto" id="F8A3B3FE-A9B4-E5CB-C6AE-A02915D12CB3">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:03:21 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_desconto" id="017F7D18-584C-7263-BD93-7F2E75F298FE">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:03:54 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_login" id="1F49F3B0-039E-CAE4-E616-9C47FFFE3293">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:25:12 UTC</createdTime>
+<generatorID>DB83C473-8D7F-09C2-7A09-BDF9203C429A</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<referedAttribute>967B5B39-7772-DAB2-4372-40A094999654</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A656B4F-32C1-2CAE-F479-10556FFFCAA2" name="T_CAD_PAGAMENTO PK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:00:59 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35645764-40B6-A1DA-5481-9397B6E4EF9C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

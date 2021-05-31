@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BECEDEC-AF37-EBED-8681-96B1F5889B3B" name="T_CERTI">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>108F77B8-4433-3EC0-69D3-03B942D5D98E</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cert" id="6F249E10-3826-FB94-B913-3ABC6672442A">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>D121C490-5E26-A180-318C-1A94749EA922</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="certificacao" id="81D6C16B-947D-CFDE-BCE9-5F9384389FD8">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>E882BEB7-6A11-D349-AACE-8D41B330E12F</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_cert" id="18FC33A2-B286-C0D5-E682-CC69E8AAD4DB">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>13FD42BD-9983-9AAE-370F-047EF41B9D21</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diploma" id="4A518FA9-6DB5-212C-8F65-7A086CB47074">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>FC85FB38-5775-5EA4-368B-A40E11214589</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_NUTRI_id_nutri" id="EFD63FBF-DA10-E3CD-55AC-DCE3E4ADFE8F">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>14EE5E5C-F4C8-CB3A-C723-382BD161FDF0</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CADD5AC-E314-BB2D-C41B-17FE5D49913A" referredColumn="97139758-0242-142D-FA03-9F39AFA860E7"/>
+</associations>
+</Column>
+<Column name="T_PERSONAL_id_per" id="9A9EE2CA-FD7D-E965-E9F7-50DAEBC0640B">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>56E9066C-B087-902F-259D-478EE9CF1DE5</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8AC39AC-AA2D-7BCC-4B2F-972457FB3BD0" referredColumn="A637938D-74D7-89B1-07D6-02DE43368443"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="530670CF-1583-11FB-7B55-CD90A90D9175" name="T_CERTI_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>645F192C-5FEB-E113-EE6A-B908731F296D</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F249E10-3826-FB94-B913-3ABC6672442A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1181E6A7-E2AC-806A-6261-94C2533E5701" name="T_CERTI_T_NUTRI_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>CDF75479-F699-4A0A-49E5-B7A41A3DCBCE</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFD63FBF-DA10-E3CD-55AC-DCE3E4ADFE8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEF7D2E4-DCA3-5076-003C-CEBB5381F3F1" name="T_CERTI_T_PERSONAL_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>FB2AD0FC-D522-75DE-7314-701CA8711835</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A9EE2CA-FD7D-E965-E9F7-50DAEBC0640B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

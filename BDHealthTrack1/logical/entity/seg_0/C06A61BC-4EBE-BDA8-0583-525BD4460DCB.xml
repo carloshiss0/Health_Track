@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C06A61BC-4EBE-BDA8-0583-525BD4460DCB" name="T_REFEICAO">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:47:34 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ref" id="ADD45340-77B0-36F3-66C2-718DF00D52B7">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:47:46 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="E7580D7C-27B4-F78B-E075-A0836087DF49">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:47:56 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="A057B1BE-BD29-3304-5ACB-3AB4678166BE">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:48:07 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="consumo" id="4EE9BB64-7529-8A36-1752-B968B2E3C05E">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:48:22 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C97963C-8A2A-799B-F523-87C58478EB25" name="T_REFEICAO PK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:47:55 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ADD45340-77B0-36F3-66C2-718DF00D52B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

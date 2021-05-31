@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73E55D8D-CDC0-1030-69FD-F5D5404DA69C" name="T_USER">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 12:49:04 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_user" id="C59CFCDE-711C-EAFF-7C42-D9A6FC9570B3">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 16:36:23 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="BB07D518-6B6A-F406-FEC6-FD03AA812D20">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 16:36:34 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="ECC01A70-F82A-D25D-5071-738FB2CEFE96">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 16:38:00 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="biotipo" id="57094773-EB6B-8E1F-97E3-72F770923CF8">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 16:38:30 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plan" id="EA320957-9A7D-B34E-CAF9-4CAC15652D2B">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:31:57 UTC</createdTime>
+<generatorID>F7BC1D51-9027-7048-62E3-4B7549AFD080</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<referedAttribute>5970A2B8-4763-B471-DF3E-88D32C767ACB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ex" id="BF6674F8-1BB9-6D6E-D22D-A23DD29FF8AA">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:39:04 UTC</createdTime>
+<generatorID>727AC758-1833-5308-8D21-CBFD69025823</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<referedAttribute>2F2B38B5-2507-DE1A-2805-BDA90A9ED03C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_diet" id="CACD7359-3AA3-289E-90F2-F64E02B74312">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:40:54 UTC</createdTime>
+<generatorID>D13CAB17-C8FE-2C27-83C8-067553739397</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<referedAttribute>AC740032-50A1-FEA0-EDE5-8DBBD6AAAA90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_login" id="E2128291-B1D7-1A7E-0096-FBBB52F0F2F9">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:25:15 UTC</createdTime>
+<generatorID>A287E84A-ED16-EAC5-E8C9-49FFFA641C08</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<referedAttribute>967B5B39-7772-DAB2-4372-40A094999654</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE24CB1E-F262-285E-9458-0D80BB23CF3B" name="T_USER PK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 16:36:31 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C59CFCDE-711C-EAFF-7C42-D9A6FC9570B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="A6257575-D6B0-7AB8-C97B-BBDA094C39A4" name="Arc_2">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:25:42 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<entity>932E2979-D2BA-4A9C-499C-4CFC7084897B</entity>
+<relations>
+<relationID>9999892A-33EE-BD1B-ACC1-388A3CC14D25</relationID>
+<relationID>1FEEB4DD-3C5C-A2A9-50CC-7A9787B87923</relationID>
+<relationID>A287E84A-ED16-EAC5-E8C9-49FFFA641C08</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1CDFE052-3C2E-D41A-4F38-AD17D7595273" containerWithKeyObject="DD2DC2E4-6BCF-898A-89A7-D7B70F30E92C" localFKIndex="6C05FC54-868D-A85A-49D0-5FFCA47594F5" name="R_PRATO_T_REFEICAO_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>D9921E09-1E26-1AF4-FD90-5C3945D570A0</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<referredTableLongName>T_REFEICAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A61F5D1-3EEF-BC20-1D02-9E5EB0FD0256</referredTableID>
+<keyObject>758FF3E0-B89F-C950-97F5-4BAE906F7DBC</keyObject>
+<referredKeyID>758FF3E0-B89F-C950-97F5-4BAE906F7DBC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ref</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

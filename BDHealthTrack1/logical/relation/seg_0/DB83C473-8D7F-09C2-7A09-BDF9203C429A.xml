@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="DB83C473-8D7F-09C2-7A09-BDF9203C429A">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 17:25:12 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<engineerTo>
+<item key="5D5AA24F-32CE-7899-FE85-514AD2BD1DA3" value="true"/>
+</engineerTo>
+<sourcePk>3D9C1113-8B9F-864B-95B5-3D02983770ED</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>932E2979-D2BA-4A9C-499C-4CFC7084897B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E091F380-50F2-C017-293F-BE945EBD0B99</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

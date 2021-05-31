@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5BE2F7F-3289-24F5-F868-FADB89D8CDA1" name="T_EXERCICIOS">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>03188717-ED74-1638-837D-2F86F78381CE</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ex" id="54985475-2C5D-92E6-73B1-E3B8222D8114">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>2F2B38B5-2507-DE1A-2805-BDA90A9ED03C</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="BC631833-E23B-F4CD-7441-5A5FEA08381C">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>822771C2-BF8F-4E1A-CC00-D1AE68EC2D84</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="C6F94B9E-02F2-17C1-47B8-B316A3DCD8F1">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>31B1E4FC-DC12-A245-02F7-A2FE729619CE</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="AF3FA9C7-303A-D982-9A66-D6F5B0081B33">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>F33BBCFA-7266-E3EB-B1CE-21344B2312C8</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagem" id="903D8ECF-AE9C-9440-B88E-D4C1B2BF51D3">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>042B52F8-3EE7-275F-76AC-9BCE3DBD9644</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url_video" id="9F4A56D5-C8AE-9998-721F-3BCA795DE2E8">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>F5C35120-1CCA-0812-0EE1-4A6147FE354A</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_PERSONAL_id_per" id="415672BE-7808-6BF1-402C-BD2F4BA8D9CE">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>D136ACE1-E003-465E-987D-235BF1B328A7</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89924FC1-F487-0FD6-9177-C124CCC03CE7" referredColumn="A637938D-74D7-89B1-07D6-02DE43368443"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06058966-938B-6E42-C755-8D95E66FCAE8" name="T_EXERCICIOS_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>35D674C7-3DB4-767D-CCB2-F236E19FE03A</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54985475-2C5D-92E6-73B1-E3B8222D8114"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="697A1B12-4C9D-01A5-D377-61F251465B3B" name="T_EXERCICIOS_T_PERSONAL_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>505728D3-B78A-4486-4B4C-5F7A447E6DF5</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="415672BE-7808-6BF1-402C-BD2F4BA8D9CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

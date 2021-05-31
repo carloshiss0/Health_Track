@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15581143-6D09-2864-7B76-C07CE9C3496A" containerWithKeyObject="DD2DC2E4-6BCF-898A-89A7-D7B70F30E92C" localFKIndex="9F454159-4A74-8C41-D9BF-9B5FD234804C" name="R_PRATO_T_ALIMENTOS_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>D9921E09-1E26-1AF4-FD90-5C3945D570A0</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<referredTableLongName>T_ALIMENTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>01996AD4-317E-3B43-250F-1E1B4948078B</referredTableID>
+<keyObject>087C6D33-2626-A206-C50A-1DC7B5E260CF</keyObject>
+<referredKeyID>087C6D33-2626-A206-C50A-1DC7B5E260CF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_al</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

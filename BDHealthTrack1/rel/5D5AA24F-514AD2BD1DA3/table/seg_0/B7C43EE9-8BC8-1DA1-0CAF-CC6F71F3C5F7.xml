@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7C43EE9-8BC8-1DA1-0CAF-CC6F71F3C5F7" name="T_USER">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>73E55D8D-CDC0-1030-69FD-F5D5404DA69C</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_user" id="B5A27CDA-9F8D-B096-0AA9-51C21EA8EE20">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>C59CFCDE-711C-EAFF-7C42-D9A6FC9570B3</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="CE7E0EAF-D208-CA5D-EAF4-2DF8A03182EA">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>BB07D518-6B6A-F406-FEC6-FD03AA812D20</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altura" id="B08DF4C6-8575-F2A6-2E38-AF8F8B421E77">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>ECC01A70-F82A-D25D-5071-738FB2CEFE96</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="biotipo" id="18C41B1F-5B0E-855B-B5B6-14FF7F647093">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>57094773-EB6B-8E1F-97E3-72F770923CF8</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_PLANO_id_plan" id="9698CD34-CEE5-B57F-1488-03DD934FD2F1">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>EA320957-9A7D-B34E-CAF9-4CAC15652D2B</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72FC5285-84C0-8E54-7AF3-5C4BAD2C5197" referredColumn="F8F24C77-47E8-9065-724B-7B1D22356C9A"/>
+</associations>
+</Column>
+<Column name="T_EXERCICIOS_id_ex" id="98F2FDDA-EFB8-D214-9A81-10BF7AA26D86">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>BF6674F8-1BB9-6D6E-D22D-A23DD29FF8AA</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D408825-D5BE-7EE6-E0B8-5A590A3A2A2D" referredColumn="54985475-2C5D-92E6-73B1-E3B8222D8114"/>
+</associations>
+</Column>
+<Column name="T_DIETAS_id_diet" id="D80F0D54-D6F7-3058-915D-E113068E968F">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>CACD7359-3AA3-289E-90F2-F64E02B74312</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49456CB3-0B80-9AA9-C898-2D57342D32A9" referredColumn="430F48D2-EFCD-B7A8-B14F-23B5EDF04654"/>
+</associations>
+</Column>
+<Column name="T_LOGIN_id_login" id="F1ADF7C1-8BA6-9D36-BFD3-85A6EAD2B2DA">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>E2128291-B1D7-1A7E-0096-FBBB52F0F2F9</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91A9ABD9-A9B1-C823-7134-A657737B25B4" referredColumn="AB3E54D5-06E7-ECE7-BF3D-1ED2FB490AAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2901868-70E3-A2B5-A74C-060063F9707F" name="T_USER_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>FE24CB1E-F262-285E-9458-0D80BB23CF3B</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5A27CDA-9F8D-B096-0AA9-51C21EA8EE20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41BCDFC6-4B43-4F0C-FCC8-A5942D6C0D51" name="T_USER__IDX">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A287E84A-ED16-EAC5-E8C9-49FFFA641C08</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F1ADF7C1-8BA6-9D36-BFD3-85A6EAD2B2DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C60D2B01-F914-6724-8161-B49C62CEE0EA" name="T_USER_T_EXERCICIOS_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>727AC758-1833-5308-8D21-CBFD69025823</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98F2FDDA-EFB8-D214-9A81-10BF7AA26D86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F32AA59-FA48-FCFA-CCFC-DA9FC6DA8E1A" name="T_USER_T_DIETAS_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>D13CAB17-C8FE-2C27-83C8-067553739397</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D80F0D54-D6F7-3058-915D-E113068E968F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="548B9560-B5EB-FFBC-D798-CD98F8006D50" name="T_USER_T_LOGIN_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>A287E84A-ED16-EAC5-E8C9-49FFFA641C08</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1ADF7C1-8BA6-9D36-BFD3-85A6EAD2B2DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBF01FE7-B1AE-6272-39A7-FB99B6CCF416" name="T_USER_T_PLANO_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>F7BC1D51-9027-7048-62E3-4B7549AFD080</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9698CD34-CEE5-B57F-1488-03DD934FD2F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A980342-9F3A-2F3F-57FA-2B5FFAD72CF1" name="T_NUTRI">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>C88F907C-C59E-B8DB-47A1-F007BC4DA8BC</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nutri" id="97139758-0242-142D-FA03-9F39AFA860E7">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>48735CAD-B1C8-512B-44B0-6CE5D787E13A</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="crn" id="54DE0468-F86D-7447-0891-4386A757FECE">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>22565CA0-461C-AB3D-C56D-40AAB89F4D43</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especialidade" id="9180E9FC-E577-B722-2D27-0B7C2F427F4F">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>508E8BA6-D323-8488-6B7B-54C0B5011314</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LOGIN_id_login" id="9AA4395A-BA70-F47A-285E-97E5CFC55E54">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>0F72CFB8-7531-70A1-E8E6-DD77F85E06A4</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAFBB618-A56F-8EDA-797A-E232AC761392" referredColumn="AB3E54D5-06E7-ECE7-BF3D-1ED2FB490AAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F4F92D5-E390-9388-463E-2AFE979BC2E1" name="T_NUTRI_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>A4B7C371-63B7-D208-8B40-EC73C5AE02E0</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97139758-0242-142D-FA03-9F39AFA860E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F0F856E-168A-D3CD-0F18-4DC0730931A5" name="T_NUTRI__IDX">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9999892A-33EE-BD1B-ACC1-388A3CC14D25</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9AA4395A-BA70-F47A-285E-97E5CFC55E54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C489DBB-6ECE-968D-477F-A2ED21ACCEA6" name="T_NUTRI_T_LOGIN_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>9999892A-33EE-BD1B-ACC1-388A3CC14D25</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AA4395A-BA70-F47A-285E-97E5CFC55E54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

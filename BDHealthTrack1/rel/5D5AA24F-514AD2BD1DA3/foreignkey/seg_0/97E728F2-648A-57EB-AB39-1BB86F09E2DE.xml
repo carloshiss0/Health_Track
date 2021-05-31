@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="97E728F2-648A-57EB-AB39-1BB86F09E2DE" containerWithKeyObject="52C585BD-B35F-C5B0-F4F8-CFD4D3A6170B" localFKIndex="FC315948-8F0A-32DE-08F3-2349581E8F28" name="T_PERSONAL_T_LOGIN_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>1FEEB4DD-3C5C-A2A9-50CC-7A9787B87923</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<referredTableLongName>T_LOGIN</referredTableLongName>
+<arc>1C7306B9-4F57-B461-2B41-FC05B84A09A6</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>72A0EC91-6789-18E4-046E-9C3319788C65</referredTableID>
+<keyObject>B688C621-59A2-7C2B-A8B9-21C427A19597</keyObject>
+<referredKeyID>B688C621-59A2-7C2B-A8B9-21C427A19597</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_login</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>T_P_L</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

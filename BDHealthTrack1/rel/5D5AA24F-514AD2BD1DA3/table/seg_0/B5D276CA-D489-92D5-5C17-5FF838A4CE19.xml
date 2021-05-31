@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5D276CA-D489-92D5-5C17-5FF838A4CE19" name="R_DIETA">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_REFEICAO_id_ref" id="85C51942-C640-CFCC-870E-784EEB196198">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94578024-1595-9149-9189-CC3682D4620A" referredColumn="552E122C-1895-19FE-FCFA-A5518BA925C5"/>
+</associations>
+</Column>
+<Column name="T_DIETAS_id_diet" id="473DF727-3A80-1572-C54B-B511AAF82095">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19E1ACD4-3969-67F6-0EEB-B72DB1DC825B" referredColumn="430F48D2-EFCD-B7A8-B14F-23B5EDF04654"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51FECE0A-1B68-2CB6-8F67-758236F12DD7" name="R_DIETA_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C51942-C640-CFCC-870E-784EEB196198"/>
+<colUsage columnID="473DF727-3A80-1572-C54B-B511AAF82095"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F6FC6D3-8868-AF4C-2BB4-2A517316BC0A" name="R_DIETA_T_REFEICAO_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>AC4636A0-2B1E-5D73-9C50-7491A19F0121</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C51942-C640-CFCC-870E-784EEB196198"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63F25B39-9BD2-8D73-4867-989C8F49860A" name="R_DIETA_T_DIETAS_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>AC4636A0-2B1E-5D73-9C50-7491A19F0121</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="473DF727-3A80-1572-C54B-B511AAF82095"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

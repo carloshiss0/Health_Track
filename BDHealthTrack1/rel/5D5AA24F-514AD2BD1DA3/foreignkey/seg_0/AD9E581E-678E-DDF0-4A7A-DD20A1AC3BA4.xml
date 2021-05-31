@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD9E581E-678E-DDF0-4A7A-DD20A1AC3BA4" containerWithKeyObject="561F0BDB-E3E9-53AB-95E2-91EE01AE8742" localFKIndex="C4B8F498-2198-1575-ED8D-29056B572F3B" name="T_ENDERECO_T_LOGIN_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>641CEAB5-F97E-0ACF-A3FB-1D21D29DFE89</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<referredTableLongName>T_LOGIN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>72A0EC91-6789-18E4-046E-9C3319788C65</referredTableID>
+<keyObject>B688C621-59A2-7C2B-A8B9-21C427A19597</keyObject>
+<referredKeyID>B688C621-59A2-7C2B-A8B9-21C427A19597</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_login</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

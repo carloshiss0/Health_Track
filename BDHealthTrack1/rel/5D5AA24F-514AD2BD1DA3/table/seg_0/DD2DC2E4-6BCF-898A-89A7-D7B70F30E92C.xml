@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD2DC2E4-6BCF-898A-89A7-D7B70F30E92C" name="R_PRATO">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_ALIMENTOS_id_al" id="1E1110CB-6C42-516D-3872-569F9BB97D65">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15581143-6D09-2864-7B76-C07CE9C3496A" referredColumn="48250931-81A4-6998-2E91-6C20FB871282"/>
+</associations>
+</Column>
+<Column name="T_REFEICAO_id_ref" id="26CBAF3F-9713-BB53-4528-03D2863F6DC9">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CDFE052-3C2E-D41A-4F38-AD17D7595273" referredColumn="552E122C-1895-19FE-FCFA-A5518BA925C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35A3AD5A-311F-5741-9FCB-C8153A76DFA1" name="R_PRATO_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E1110CB-6C42-516D-3872-569F9BB97D65"/>
+<colUsage columnID="26CBAF3F-9713-BB53-4528-03D2863F6DC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F454159-4A74-8C41-D9BF-9B5FD234804C" name="R_PRATO_T_ALIMENTOS_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>D9921E09-1E26-1AF4-FD90-5C3945D570A0</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E1110CB-6C42-516D-3872-569F9BB97D65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C05FC54-868D-A85A-49D0-5FFCA47594F5" name="R_PRATO_T_REFEICAO_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2021-05-22 18:26:07 UTC</createdTime>
+<generatorID>D9921E09-1E26-1AF4-FD90-5C3945D570A0</generatorID>
+<ownerDesignName>BDHealthTrack1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26CBAF3F-9713-BB53-4528-03D2863F6DC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
